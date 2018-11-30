@@ -1,0 +1,90 @@
+$navbar-default-bg: #576402;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+text-shadow:8px 1px 3px rgba(0,0,0,0.5);
+font-weight:bold;
+text-decoration:underline overline;
+text-transform:uppercase;
+color:#308C1D;
+letter-spacing:0pt;
+word-spacing:0pt;
+font-size:30px;
+text-align:center;
+font-family:impact, sans-serif;
+line-height:1;
+padding-bottom: 40px;
+}
+
+#logo:hover {
+    color: #98FFAA;
+    text-decoration:underline overline;
+}
+
+.logo {
+text-shadow:8px 1px 3px rgba(0,0,0,0.5);
+font-weight:bold;
+text-decoration:underline overline;
+text-transform:uppercase;
+letter-spacing:0pt;
+word-spacing:0pt;
+font-size:75px;
+text-align:center;
+font-family:impact, sans-serif;
+line-height:1;
+padding-bottom: 30px;
+}
+
+.center {
+    text-align: center;
+    color: #308C1D;
+}
+
+.jumbotron {
+    background-image: asset-url('Dinoworld');
+    background-size: cover;
+    height: 800px;
+}
+
+.jumbotron2 {
+    height: 800px;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: darkgreen;
+}
+
+.footer {
+    
+    margin-top: 45px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-top: 1px solid #eaeaea;
+    color: #FFF1F1;
+}
+
+footer a:hover {
+    color: #960000;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+.blank {
+    text-decoration: none;
+}

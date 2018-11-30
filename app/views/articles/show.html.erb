@@ -1,0 +1,14 @@
+<div class="blank">
+    <h1>Showing article: </h1>
+    
+    <p>
+        Title: <br/><%= @article.title %>
+    <p>
+    
+    <p>
+        Description: <br/><%= @article.description %>
+    </p>
+
+    <%= link_to "Edit Article", edit_article_path(@article) %> |
+    <%= link_to "Back to articles Index", articles_path %>
+</div>
