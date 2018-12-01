@@ -1,4 +1,4 @@
-class ArticlesController < ActionController::Base
+class ArticlesController < ApplicationController
     before_action :set_article, only: [:edit, :update, :show, :destroy]
     def index
         @articles = Article.all
@@ -37,7 +37,7 @@ class ArticlesController < ActionController::Base
     
     def destroy
         @article.destroy
-        flash[:danger] = "article has been deleted.. \nyou will not see that article again"
+        flash[:Danger] = "article has been deleted.. \nyou will not see that article again"
         redirect_to articles_path
     end
     
