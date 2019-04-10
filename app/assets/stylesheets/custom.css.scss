@@ -3,8 +3,21 @@ $navbar-default-bg: #576402;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@font-face {
+font-family: "Amcap Eternal";
+src: url("stylesheets/Fonts/amcap_eternal.ttf");
+src: 
+url("stylesheets/Fonts/amcap_eternal.ttf") format("ttf");
+}
+@font-face {
+font-family: "American Captain";
+src: url("stylesheets/Fonts/american_captain.ttf");
+src: 
+url("stylesheets/Fonts/american_captain.ttf") format("ttf");
+}
+
 #logo {
-text-shadow:8px 1px 3px rgba(0,0,0,0.5);
+text-shadow:8px 3px 3px rgba(0,0,0,0.3);
 font-weight:bold;
 text-decoration:underline overline;
 text-transform:uppercase;
@@ -13,7 +26,7 @@ letter-spacing:0pt;
 word-spacing:0pt;
 font-size:30px;
 text-align:center;
-font-family:impact, sans-serif;
+font-family:"Amcap Eternal";
 line-height:1;
 padding-bottom: 40px;
 }
@@ -24,7 +37,7 @@ padding-bottom: 40px;
 }
 
 .logo {
-text-shadow:8px 1px 3px rgba(0,0,0,0.5);
+text-shadow:8px 3px 3px rgba(0,0,0,0.3);
 font-weight:bold;
 text-decoration:underline overline;
 text-transform:uppercase;
@@ -32,7 +45,7 @@ letter-spacing:0pt;
 word-spacing:0pt;
 font-size:75px;
 text-align:center;
-font-family:impact, sans-serif;
+font-family:"Amcap Eternal";
 line-height:1;
 padding-bottom: 30px;
 }
